@@ -1117,7 +1117,7 @@ let ings  = [];
 let selAl = new Set();
 
 function allDB(){ return {...DB,...cuDB}; }
-function getTipo(){ return document.getElementById('mix-tipo').value; }
+function getTipo(){ return document.getElementById('bil-tipo')?.value || document.getElementById('mix-tipo')?.value || 'gelato'; }
 
 // ═══════════════════════════════════════════════════════════════════════
 // CALCOLO MISCELA — base 100 (tutto in percentuale sulla miscela)
@@ -2583,39 +2583,40 @@ function saveSorbettoArchivio(){
   const f = sorbettoFormula;
   loadSorbettoInBilanciatura();
   setTimeout(()=>{
-    document.getElementById('mix-name').value = 'Sorbetto '+f.nome+' (generato)';
+    document.getElementById('bil-nome').value = 'Sorbetto '+f.nome+' (generato)';
     saveArch();
-  }, 200);
+  }, 300);
 }
 
 function loadSorbettoInBilanciatura(){
   if(!sorbettoFormula) return;
-  const db = allDB();
   const f = sorbettoFormula;
-
-  // Build ings array
-  const newIngs = [];
-  if(f.acquaFin > 0) newIngs.push({key:'acqua',name:'Acqua',qg:f.acquaFin,cost:0,d:db['acqua']});
-
-  // Add fruit — try to match key or use acqua as fallback with proper name
   const fruitMap = {
     fragola:'fragola_f', lampone:'p_lampone', mango:'p_mango',
     maracuja:'p_maraja', limone:'p_limone', arancia:'p_limone',
     mandarino:'p_limone',
   };
-  const fruitKey = fruitMap[f.nome]||'acqua';
-  const fruitD = db[fruitKey]||db['acqua'];
-  newIngs.push({key:fruitKey,name:'Polpa/Succo '+f.nome,qg:f.qFru,cost:fruitD.co||5,d:fruitD});
-  newIngs.push({key:'saccarosio',name:'Saccarosio',qg:f.saccarosioG,cost:0.90,d:db['saccarosio']});
-  newIngs.push({key:'destrosio',name:'Destrosio monoidrato',qg:f.destrosioG,cost:1.20,d:db['destrosio']});
-  if(f.limoneG>0) newIngs.push({key:'p_limone',name:'Succo di limone',qg:f.limoneG,cost:1.50,d:db['p_limone']});
-  newIngs.push({key:'neutro5',name:'Neutro 5g/L (composto)',qg:f.neutroG,cost:8.00,d:db['neutro5']});
+  const fruitKey = fruitMap[f.nome]||'p_limone';
 
-  ings = newIngs.sort((a,b)=>b.qg-a.qg);
-  document.getElementById('mix-name').value = 'Sorbetto '+f.nome;
-  document.getElementById('mix-tipo').value = 'sorbetto';
-  showTab('bil', document.querySelector('.nav button'));
-  render();
+  // Carica in bilRows (sistema bilanciatore nuovo)
+  bilRows = [];
+  let id = bilNextId;
+  if(f.acquaFin > 0) bilRows.push({id:id++, dbid:'acqua',      kg: f.acquaFin/1000});
+  bilRows.push({id:id++, dbid:fruitKey,       kg: f.qFru/1000});
+  bilRows.push({id:id++, dbid:'saccarosio',   kg: f.saccarosioG/1000});
+  bilRows.push({id:id++, dbid:'destrosio',    kg: f.destrosioG/1000});
+  if(f.limoneG > 0) bilRows.push({id:id++, dbid:'p_limone', kg: f.limoneG/1000});
+  bilRows.push({id:id++, dbid:'neutro5',      kg: f.neutroG/1000});
+  bilNextId = id;
+
+  // Imposta nome e tipo
+  document.getElementById('bil-nome').value = 'Sorbetto '+f.nome;
+  document.getElementById('bil-tipo').value = 'sorbetto';
+
+  // Passa al tab bilanciatura
+  const bilBtn = document.querySelector('.nav button[onclick*="bil"]');
+  showTab('bil', bilBtn || document.querySelector('.nav button'));
+  bilRender();
   alert('Ricetta sorbetto '+f.nome+' caricata in Bilanciatura!');
 }
 
