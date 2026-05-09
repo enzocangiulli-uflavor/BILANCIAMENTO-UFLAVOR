@@ -1024,12 +1024,35 @@ const DB = {
   b_sorb50:  {n:"Base sorbetto frutta 50g/L",   cat:"Basi",       ac:3.0, gr:0.0, pr:1.0, zu:72.0,la:0.0, sl:3.0, st:97.0,kc:295, pac:72.0, pod:50.4, al:[],                      co:8.50, isComposto:true, subIngs:["destrosio","maltodestrine","pectina (E440)","farina di semi di carruba (E410)","gomma di guar (E412)","acido citrico (E330)"]},
   b_choc50:  {n:"Base cioccolato premium 50g/L",cat:"Basi",       ac:3.0, gr:6.0, pr:7.0, zu:52.0,la:12.0,sl:20.0,st:97.0,kc:310, pac:52.0, pod:36.4, al:["Latte","Soia"],        co:11.0, isComposto:true, subIngs:["destrosio","cacao magro in polvere","latte scremato in polvere","grasso vegetale","maltodestrine","lecitina di soia","farina di semi di carruba (E410)","carragenina (E407)"]},
   // ─── FRUTTA ──────────────────────────────────────────────────────────────
-  p_fragola: {n:"Purea fragola 90°brix",        cat:"Frutta",     ac:10.0,gr:0.3, pr:0.6, zu:75.0,la:0.0, sl:0.0, st:90.0,kc:309, pac:75.0, pod:56.3, al:[],                co:5.00},
-  p_lampone: {n:"Purea lampone 90°brix",        cat:"Frutta",     ac:10.0,gr:0.5, pr:0.9, zu:72.0,la:0.0, sl:0.0, st:90.0,kc:297, pac:72.0, pod:54.0, al:[],                co:6.50},
-  p_mango:   {n:"Purea mango 90°brix",          cat:"Frutta",     ac:10.0,gr:0.2, pr:0.4, zu:78.0,la:0.0, sl:0.0, st:90.0,kc:314, pac:78.0, pod:58.5, al:[],                co:5.50},
-  p_maraja:  {n:"Purea maracujà 90°brix",       cat:"Frutta",     ac:12.0,gr:0.4, pr:1.0, zu:70.0,la:0.0, sl:0.0, st:88.0,kc:288, pac:70.0, pod:52.5, al:[],                co:7.50},
+  p_fragola: {n:"Purea fragola 90°brix",        cat:"Frutta",     ac:10.0,gr:0.3, pr:0.6, zu:75.0,la:0.0, sl:0.0, st:90.0,kc:309, pac:8.0,  pod:6.0,  al:[],                co:5.00},
+  p_lampone: {n:"Purea lampone 90°brix",        cat:"Frutta",     ac:10.0,gr:0.5, pr:0.9, zu:72.0,la:0.0, sl:0.0, st:90.0,kc:297, pac:8.0,  pod:6.0,  al:[],                co:6.50},
+  p_mango:   {n:"Purea mango 90°brix",          cat:"Frutta",     ac:10.0,gr:0.2, pr:0.4, zu:78.0,la:0.0, sl:0.0, st:90.0,kc:314, pac:13.0, pod:10.0, al:[],                co:5.50},
+  p_maraja:  {n:"Purea maracujà 90°brix",       cat:"Frutta",     ac:12.0,gr:0.4, pr:1.0, zu:70.0,la:0.0, sl:0.0, st:88.0,kc:288, pac:14.0, pod:10.5, al:[],                co:7.50},
   p_limone:  {n:"Succo di limone",              cat:"Frutta",     ac:91.0,gr:0.2, pr:0.4, zu:4.0, la:0.0, sl:0.0, st:9.0, kc:20,  pac:4.00, pod:3.00, al:[],                co:1.50},
   fragola_f: {n:"Polpa fragola fresca",         cat:"Frutta",     ac:90.0,gr:0.4, pr:0.7, zu:6.5, la:0.0, sl:0.0, st:10.0,kc:30,  pac:6.50, pod:4.88, al:[],                co:4.00},
+  p_anguria: {n:"Purea anguria 90°brix",        cat:"Frutta",     ac:10.0,gr:0.2, pr:0.6, zu:75.0,la:0.0, sl:0.0, st:90.0,kc:300, pac:7.0,  pod:5.3,  al:[],                co:4.50},
+  p_pesca:   {n:"Purea pesca 90°brix",          cat:"Frutta",     ac:10.0,gr:0.1, pr:0.6, zu:78.0,la:0.0, sl:0.0, st:90.0,kc:305, pac:10.0, pod:7.5,  al:[],                co:5.00},
+  p_albicocca:{n:"Purea albicocca 90°brix",     cat:"Frutta",     ac:10.0,gr:0.4, pr:1.0, zu:74.0,la:0.0, sl:0.0, st:90.0,kc:298, pac:11.0, pod:8.3,  al:[],                co:5.50},
+  p_pera:    {n:"Purea pera 90°brix",           cat:"Frutta",     ac:10.0,gr:0.3, pr:0.4, zu:77.0,la:0.0, sl:0.0, st:90.0,kc:308, pac:12.0, pod:9.0,  al:[],                co:5.00},
+  p_ciliegia:{n:"Purea ciliegia 90°brix",       cat:"Frutta",     ac:10.0,gr:0.3, pr:1.0, zu:73.0,la:0.0, sl:0.0, st:90.0,kc:295, pac:14.0, pod:10.5, al:[],                co:6.00},
+  p_kiwi:    {n:"Purea kiwi 90°brix",           cat:"Frutta",     ac:10.0,gr:0.4, pr:1.0, zu:72.0,la:0.0, sl:0.0, st:90.0,kc:293, pac:10.0, pod:7.5,  al:[],                co:6.00},
+  p_melone:  {n:"Purea melone 90°brix",         cat:"Frutta",     ac:10.0,gr:0.2, pr:0.6, zu:76.0,la:0.0, sl:0.0, st:90.0,kc:304, pac:9.0,  pod:6.8,  al:[],                co:4.50},
+  p_banana:  {n:"Purea banana 90°brix",         cat:"Frutta",     ac:10.0,gr:0.3, pr:1.1, zu:78.0,la:0.0, sl:0.0, st:90.0,kc:312, pac:20.0, pod:15.0, al:[],                co:4.00},
+  p_arancia: {n:"Succo arancia 90°brix",        cat:"Frutta",     ac:10.0,gr:0.2, pr:0.7, zu:76.0,la:0.0, sl:0.0, st:90.0,kc:304, pac:9.0,  pod:6.8,  al:[],                co:3.50},
+  p_mandarino:{n:"Succo mandarino 90°brix",     cat:"Frutta",     ac:10.0,gr:0.3, pr:0.8, zu:74.0,la:0.0, sl:0.0, st:90.0,kc:298, pac:11.0, pod:8.3,  al:[],                co:4.00},
+  p_ananasso:{n:"Purea ananas 90°brix",         cat:"Frutta",     ac:10.0,gr:0.2, pr:0.5, zu:77.0,la:0.0, sl:0.0, st:90.0,kc:308, pac:11.0, pod:8.3,  al:[],                co:5.00},
+  p_cocco:   {n:"Purea cocco 90°brix",          cat:"Frutta",     ac:10.0,gr:2.0, pr:1.0, zu:70.0,la:0.0, sl:0.0, st:90.0,kc:304, pac:5.0,  pod:3.8,  al:[],                co:6.00},
+  p_melagrana:{n:"Purea melagrana 90°brix",     cat:"Frutta",     ac:10.0,gr:0.3, pr:0.9, zu:72.0,la:0.0, sl:0.0, st:90.0,kc:292, pac:14.0, pod:10.5, al:[],                co:7.00},
+  p_passion: {n:"Purea passion fruit 90°brix",  cat:"Frutta",     ac:12.0,gr:0.4, pr:1.0, zu:70.0,la:0.0, sl:0.0, st:88.0,kc:286, pac:14.0, pod:10.5, al:[],                co:8.00},
+  p_lime:    {n:"Succo lime 90°brix",           cat:"Frutta",     ac:10.0,gr:0.2, pr:0.4, zu:74.0,la:0.0, sl:0.0, st:90.0,kc:298, pac:5.0,  pod:3.8,  al:[],                co:4.00},
+  p_mora:    {n:"Purea mora 90°brix",           cat:"Frutta",     ac:10.0,gr:0.5, pr:1.4, zu:72.0,la:0.0, sl:0.0, st:90.0,kc:293, pac:8.0,  pod:6.0,  al:[],                co:6.50},
+  p_mirtillo:{n:"Purea mirtillo 90°brix",       cat:"Frutta",     ac:10.0,gr:0.3, pr:0.7, zu:73.0,la:0.0, sl:0.0, st:90.0,kc:295, pac:8.0,  pod:6.0,  al:[],                co:7.00},
+  p_ribes:   {n:"Purea ribes nero 90°brix",     cat:"Frutta",     ac:10.0,gr:0.4, pr:1.0, zu:71.0,la:0.0, sl:0.0, st:90.0,kc:289, pac:7.0,  pod:5.3,  al:[],                co:7.00},
+  p_papaia:  {n:"Purea papaia 90°brix",         cat:"Frutta",     ac:10.0,gr:0.1, pr:0.5, zu:76.0,la:0.0, sl:0.0, st:90.0,kc:302, pac:8.0,  pod:6.0,  al:[],                co:6.00},
+  p_mela:    {n:"Purea mela 90°brix",           cat:"Frutta",     ac:10.0,gr:0.2, pr:0.3, zu:77.0,la:0.0, sl:0.0, st:90.0,kc:306, pac:12.0, pod:9.0,  al:[],                co:4.50},
+  p_uva:     {n:"Purea uva 90°brix",            cat:"Frutta",     ac:10.0,gr:0.2, pr:0.6, zu:76.0,la:0.0, sl:0.0, st:90.0,kc:304, pac:16.0, pod:12.0, al:[],                co:4.50},
+  p_fichi:   {n:"Purea fichi 90°brix",          cat:"Frutta",     ac:10.0,gr:0.3, pr:1.3, zu:74.0,la:0.0, sl:0.0, st:90.0,kc:300, pac:14.0, pod:10.5, al:[],                co:5.50},
+  p_pompelmo:{n:"Succo pompelmo 90°brix",       cat:"Frutta",     ac:10.0,gr:0.1, pr:0.6, zu:73.0,la:0.0, sl:0.0, st:90.0,kc:293, pac:11.0, pod:8.3,  al:[],                co:3.50},
   // ─── ALTRO ───────────────────────────────────────────────────────────────
   acqua:     {n:"Acqua",                        cat:"Altro",      ac:100.0,gr:0.0,pr:0.0, zu:0,   la:0.0, sl:0.0, st:0.0, kc:0,   pac:0.00, pod:0.00, al:[],                co:0.00},
   caffe:     {n:"Caffè espresso",               cat:"Altro",      ac:98.0,gr:0.1, pr:0.2, zu:0.5, la:0.0, sl:0.0, st:2.0, kc:4,   pac:0.50, pod:0.0,  al:[],                co:0.50},
@@ -2592,9 +2615,17 @@ function loadSorbettoInBilanciatura(){
   if(!sorbettoFormula) return;
   const f = sorbettoFormula;
   const fruitMap = {
-    fragola:'fragola_f', lampone:'p_lampone', mango:'p_mango',
-    maracuja:'p_maraja', limone:'p_limone', arancia:'p_limone',
-    mandarino:'p_limone',
+    fragola:'p_fragola',   lampone:'p_lampone',   mango:'p_mango',
+    maracuja:'p_maraja',   limone:'p_limone',     arancia:'p_arancia',
+    mandarino:'p_mandarino', anguria:'p_anguria', pesca:'p_pesca',
+    albicocca:'p_albicocca', pera:'p_pera',       ciliegia:'p_ciliegia',
+    ciliegie:'p_ciliegia', kiwi:'p_kiwi',         melone:'p_melone',
+    banana:'p_banana',     ananas:'p_ananasso',   ananasso:'p_ananasso',
+    cocco:'p_cocco',       melagrana:'p_melagrana', passion:'p_passion',
+    frutto:'p_passion',    lime:'p_lime',         mora:'p_mora',
+    mirtillo:'p_mirtillo', ribes:'p_ribes',       papaia:'p_papaia',
+    mela:'p_mela',         uva:'p_uva',           fichi:'p_fichi',
+    pompelmo:'p_pompelmo',
   };
   const fruitKey = fruitMap[f.nome]||'p_limone';
 
@@ -2696,9 +2727,9 @@ function bilCalcolo(){
     const grassiKg = kg100 * (d.grassi/100);
     const slngKg   = kg100 * (d.slng/100);
     const zucchKg  = kg100 * (d.zucch/100);
-    // PAC e POD: contributo = kg100 * (PAC_ing/100) → ×10 per scala Corvitto (punti su 1kg)
-    const pacPts   = kg100 * (d.pac/100) * 10;
-    const podPts   = kg100 * (d.pod/100) * 10;
+    // PAC e POD: contributo = kg100 * (PAC_ing/100) in punti su base 100kg
+    const pacPts   = kg100 * (d.pac/100);
+    const podPts   = kg100 * (d.pod/100);
     const acquaKg  = kg100 * (d.acqua/100);
     const perc     = totKgInput>0 ? (r.kg/totKgInput*100) : 0;
     totGrassi+=grassiKg; totSlng+=slngKg; totPac+=pacPts; totPod+=podPts;
@@ -2774,7 +2805,7 @@ function bilRender(){
 
   // ── KPI ────────────────────────────────────────────────
   const tsStimata = C.totPac > 0 ? (C.totPac/-20) : null;
-  const pacPunti1kg = Math.round(C.totPac);
+  const pacPunti1kg = Math.round(C.totPac * 10);
   const tsCorvitto = pacPunti1kg >= 241 ? -(10+Math.floor((pacPunti1kg-241)/20)) : null;
   const lattOk = C.lattosioKg <= C.lattMaxKg ? 'ok' : 'err';
 
@@ -2955,9 +2986,9 @@ function getBilData(){
   const pro100   = slng100 * 0.26;
   const altrisol = Math.max(0, st100 - fat100 - slng100 - zu100);
 
-  // PAC relativo (% saccarosio equiv su miscela) — C.totPac è in punti Corvitto (scala ×10)
-  const pac = C.totPac / 10;       // punti Corvitto → PAC relativo %
-  const pod = C.totPod / 10;
+  // PAC relativo (% saccarosio equiv su miscela) — C.totPac è in scala ~27 per crema bianca
+  const pac = C.totPac;           // già in % relativa
+  const pod = C.totPod;
   const paca = water100 > 0 ? pac/water100*100 : 0;
 
   // Kcal stimate: grassi=9, carb=4, pro=4
@@ -2969,8 +3000,8 @@ function getBilData(){
   // Lattosio su acqua
   const lat_h2o = water100>0 ? (la100/water100)*100 : 0;
 
-  // Temp servizio — C.totPac già in scala Corvitto
-  const pacPunti  = Math.round(C.totPac);
+  // Temp servizio — converti in punti Corvitto (×10)
+  const pacPunti  = Math.round(C.totPac * 10);
   const tsCorvitto = pacPunti>=241 ? -(10+Math.floor((pacPunti-241)/20)) : null;
   const tv = tsCorvitto;
 
