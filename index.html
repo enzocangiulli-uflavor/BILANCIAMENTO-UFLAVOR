@@ -887,7 +887,18 @@ select{-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg x
       <button class="btn btn-p" onclick="saveCu()" style="width:100%;text-align:center;margin-top:4px">Salva ingrediente</button>
     </div>
   </div>
-  <div class="card"><h3>Ingredienti personalizzati salvati</h3><div id="cu-list"><div class="empty">Nessun ingrediente personalizzato</div></div></div>
+  <div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px">
+      <h3 style="margin:0">Ingredienti personalizzati salvati</h3>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <button class="btn" onclick="esportaIngredienti()" style="background:var(--info-bg);color:var(--info);border-color:var(--info);font-size:12px">⬇ Esporta</button>
+        <button class="btn" onclick="document.getElementById('importa-ing-file').click()" style="background:var(--ok-bg);color:var(--ok);border-color:var(--ok);font-size:12px">⬆ Importa</button>
+        <button class="btn btn-d" onclick="resetIngredienti()" style="font-size:12px">🗑 Reset</button>
+        <input type="file" id="importa-ing-file" accept=".json" style="display:none" onchange="importaIngredienti(event)">
+      </div>
+    </div>
+    <div id="cu-list"><div class="empty">Nessun ingrediente personalizzato</div></div>
+  </div>
 </div>
 
 </div><!-- /content -->
@@ -3903,6 +3914,45 @@ function resetArchivio(){
   arch = arch.filter(function(m){ return m.isCorvitto; });
   LS.set('uf5_arch', arch);
   renderArch();
+}
+
+// ─── ESPORTA / IMPORTA INGREDIENTI PERSONALIZZATI ────────────────────────────
+function esportaIngredienti(){
+  const ks = Object.keys(cuDB);
+  if(!ks.length){ alert('Nessun ingrediente personalizzato da esportare.'); return; }
+  const blob = new Blob([JSON.stringify(cuDB, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'UFlavor_Ingredienti_' + new Date().toISOString().slice(0,10) + '.json';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+function importaIngredienti(event){
+  const file = event.target.files[0]; if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e){
+    try{
+      const dati = JSON.parse(e.target.result);
+      if(typeof dati !== 'object' || Array.isArray(dati)) throw new Error('Formato non valido');
+      var importati=0, saltati=0;
+      Object.keys(dati).forEach(function(k){
+        if(!dati[k].n){ saltati++; return; }
+        if(cuDB[k]){ saltati++; return; }
+        cuDB[k] = dati[k]; importati++;
+      });
+      LS.set('uf5_cu', cuDB); populateSel(); renderCu();
+      alert('✅ ' + importati + ' ingredienti importati' + (saltati ? ' | ' + saltati + ' saltati (già presenti)' : ''));
+    } catch(err){ alert('❌ Errore: ' + err.message); }
+    event.target.value = '';
+  };
+  reader.readAsText(file);
+}
+
+function resetIngredienti(){
+  if(!confirm('Eliminare tutti gli ingredienti personalizzati?')) return;
+  cuDB = {}; LS.set('uf5_cu', cuDB); populateSel(); renderCu();
 }
 
 
