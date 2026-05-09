@@ -2695,9 +2695,9 @@ function bilCalcolo(){
     const grassiKg = kg100 * (d.grassi/100);
     const slngKg   = kg100 * (d.slng/100);
     const zucchKg  = kg100 * (d.zucch/100);
-    // PAC e POD: contributo = kg100 * (PAC_ing/100) in punti su base 100kg
-    const pacPts   = kg100 * (d.pac/100);
-    const podPts   = kg100 * (d.pod/100);
+    // PAC e POD: contributo = kg100 * (PAC_ing/100) → ×10 per scala Corvitto (punti su 1kg)
+    const pacPts   = kg100 * (d.pac/100) * 10;
+    const podPts   = kg100 * (d.pod/100) * 10;
     const acquaKg  = kg100 * (d.acqua/100);
     const perc     = totKgInput>0 ? (r.kg/totKgInput*100) : 0;
     totGrassi+=grassiKg; totSlng+=slngKg; totPac+=pacPts; totPod+=podPts;
@@ -2773,7 +2773,8 @@ function bilRender(){
 
   // ── KPI ────────────────────────────────────────────────
   const tsStimata = C.totPac > 0 ? (C.totPac/-20) : null;
-  const tsCorvitto = C.totPac >= 241 ? -(10+Math.floor((C.totPac-241)/20)) : null;
+  const pacPunti1kg = Math.round(C.totPac);
+  const tsCorvitto = pacPunti1kg >= 241 ? -(10+Math.floor((pacPunti1kg-241)/20)) : null;
   const lattOk = C.lattosioKg <= C.lattMaxKg ? 'ok' : 'err';
 
   function kpi(label,val,unit,range,sub){
@@ -2801,10 +2802,10 @@ function bilRender(){
       <div class="kpi-val">${bilFmtI(C.totPod)}<span class="kpi-unit">pt</span></div>
       <div class="kpi-sub">range ${R.pod[0]}–${R.pod[1]}</div>
     </div>` +
-    `<div class="kpi neutral">
+    `<div class="kpi ${tsCorvitto!==null?'ok':'neutral'}">
       <div class="kpi-label">T° servizio</div>
       <div class="kpi-val">${tsCorvitto!==null?tsCorvitto:'—'}<span class="kpi-unit">°C</span></div>
-      <div class="kpi-sub">PAC ${bilFmtI(C.totPac)} pt / -20</div>
+      <div class="kpi-sub">${pacPunti1kg} pt → Corvitto</div>
     </div>` +
     `<div class="kpi neutral">
       <div class="kpi-label">Altri solidi</div>
@@ -2826,7 +2827,7 @@ function bilRender(){
   if(bilChk(C.stPerc,R.st)!=='ok')         alerts.push({cls:bilChk(C.stPerc,R.st),         msg:`Solidi totali ${bilFmt(C.stPerc,1)}% — range ${R.st[0]}–${R.st[1]}%`});
   if(bilChk(C.totPac,R.pac)!=='ok')        alerts.push({cls:bilChk(C.totPac,R.pac),        msg:`PAC ${bilFmtI(C.totPac)} pt — range ${R.pac[0]}–${R.pac[1]} pt`});
   if(C.lattosioKg>C.lattMaxKg)             alerts.push({cls:'err', msg:`⚠ Lattosio ${bilFmt(C.lattosioKg,2)} kg > max ${bilFmt(C.lattMaxKg,2)} kg → rischio sabbiatura`});
-  if(tsCorvitto!==null && bilChk(C.totPac,R.pac)==='ok') alerts.push({cls:'ok', msg:`✓ T° servizio stimata: ${tsCorvitto}°C — mix bilanciato`});
+  if(tsCorvitto!==null && bilChk(C.totPac,R.pac)==='ok') alerts.push({cls:'ok', msg:`✓ T° servizio stimata: ${tsCorvitto}°C (${pacPunti1kg} pt) — mix bilanciato`});
 
   const aBox = document.getElementById('bil-alerts');
   if(alerts.length){
