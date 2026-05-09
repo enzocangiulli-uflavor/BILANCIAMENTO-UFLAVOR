@@ -1,0 +1,1694 @@
+[
+  {
+    "id": 1700000000000,
+    "nm": "Crema bianca / panna (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 680,
+        "cost": 0.85
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 140,
+        "cost": 0.9
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 83,
+        "cost": 2.8
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 51,
+        "cost": 5.5
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 20,
+        "cost": 2
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 20,
+        "cost": 1.2
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 6,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 5.353999999999999,
+      "pro100": 4.4212,
+      "zu100": 17.299999999999997,
+      "water100": 65.39299999999997,
+      "slng100": 11.431000000000001,
+      "kc100": 0,
+      "la100": 6.309300000000001,
+      "st100": 34.60700000000003,
+      "altrisol": 0.5220000000000304,
+      "pac": 27.547599999999996,
+      "pod": 19.971868,
+      "paca": 42.12622146101266,
+      "lat_h2o": 9.64828039698439,
+      "tv": -14,
+      "ovr": 20,
+      "tipo": "gelato",
+      "pacPunti": 275,
+      "tsCorvitto": -11
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Famiglia base Corvitto. 8% grassi, 18% dolcezza, 10% LMP, PAC 266pt → TS -11°C vetrina. Overrun target 35%.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000001,
+    "nm": "Crema bianca / panna (TS -18°C freezer)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 547,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 86,
+        "cost": 2.8
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 148,
+        "cost": 1.2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 100,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 49,
+        "cost": 5.5
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 50,
+        "cost": 2
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 20,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 5.0335,
+      "pro100": 3.904900000000001,
+      "zu100": 27.193,
+      "water100": 55.97650000000001,
+      "slng100": 10.056999999999999,
+      "kc100": 0,
+      "la100": 5.549600000000001,
+      "st100": 44.02349999999999,
+      "altrisol": 1.7399999999999949,
+      "pac": 52.92416000000001,
+      "pod": 28.596516,
+      "paca": 94.54710458853268,
+      "lat_h2o": 9.914160406599198,
+      "tv": -26.5,
+      "ovr": 20,
+      "tipo": "gelato",
+      "pacPunti": 529,
+      "tsCorvitto": -24
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: PAC 410pt per TS -18°C (ristorante/freezer). Più destrosio e zucchero invertito per resistenza al freddo.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000002,
+    "nm": "Crema allo yogurt (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 340,
+        "cost": 0.85
+      },
+      {
+        "key": "yogurt_i",
+        "name": "Yogurt intero",
+        "qg": 500,
+        "cost": 1.2
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 53,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 60,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 37,
+        "cost": 1.2
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 4,
+        "cost": 5.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 6,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 5.066999999999999,
+      "pro100": 3.8171999999999997,
+      "zu100": 9.397,
+      "water100": 76.305,
+      "slng100": 8.709,
+      "kc100": 0,
+      "la100": 4.322299999999999,
+      "st100": 23.694999999999993,
+      "altrisol": 0.5219999999999931,
+      "pac": 17.2366,
+      "pod": 9.948708000000002,
+      "paca": 22.58908328418845,
+      "lat_h2o": 5.664504291986108,
+      "tv": -8.5,
+      "ovr": 20,
+      "tipo": "gelato",
+      "pacPunti": 172,
+      "tsCorvitto": null
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: mix base bianca pastorizzata + uguale peso yogurt intero. 50% mix + 50% yogurt nel mantecatore. PAC ~276pt.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000003,
+    "nm": "Crema all'uovo / vaniglia (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 592,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 83,
+        "cost": 2.8
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 140,
+        "cost": 2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 100,
+        "cost": 0.9
+      },
+      {
+        "key": "tuorlo",
+        "name": "Tuorlo d'uovo",
+        "qg": 45,
+        "cost": 8
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 20,
+        "cost": 5.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 20,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 6.272,
+      "pro100": 3.7312000000000003,
+      "zu100": 20.25,
+      "water100": 63.129999999999995,
+      "slng100": 7.662999999999999,
+      "kc100": 0,
+      "la100": 4.2573,
+      "st100": 36.870000000000005,
+      "altrisol": 2.685000000000006,
+      "pac": 40.67436000000001,
+      "pod": 29.520507999999996,
+      "paca": 64.4295263741486,
+      "lat_h2o": 6.743703469032157,
+      "tv": -20.5,
+      "ovr": 20,
+      "tipo": "gelato",
+      "pacPunti": 407,
+      "tsCorvitto": -18
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: crema all'uovo. Tuorlo apporta grassi, struttura e sapore. Zucchero invertito anticristallizzante. 2 bacche vaniglia/kg.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000004,
+    "nm": "Crema cioccolato fondente 70% (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 448,
+        "cost": 0
+      },
+      {
+        "key": "cioc70",
+        "name": "Cioccolato fondente 70%",
+        "qg": 170,
+        "cost": 10
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 167,
+        "cost": 2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 80,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 50,
+        "cost": 5.5
+      },
+      {
+        "key": "tuorlo",
+        "name": "Tuorlo d'uovo",
+        "qg": 80,
+        "cost": 8
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 5,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 9.365000000000002,
+      "pro100": 4.445,
+      "zu100": 25.232499999999998,
+      "water100": 53.8975,
+      "slng100": 4.8,
+      "kc100": 0,
+      "la100": 2.6,
+      "st100": 46.1025,
+      "altrisol": 6.704999999999998,
+      "pac": 47.325,
+      "pod": 35.64200000000001,
+      "paca": 87.80555684400947,
+      "lat_h2o": 4.823971427246161,
+      "tv": -23.5,
+      "ovr": 25,
+      "tipo": "gelato",
+      "pacPunti": 473,
+      "tsCorvitto": -21
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: copertura 70% = grasso + cacao + zucchero. PAC negativo del cacao compensato con zucchero invertito (alto PAC, basso secco). Il gusto amaro attenua la dolcezza percepita.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000005,
+    "nm": "Crema nocciola 100% (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 342,
+        "cost": 0
+      },
+      {
+        "key": "p_nocc100",
+        "name": "Pasta nocciola 100% (pura)",
+        "qg": 200,
+        "cost": 18
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 140,
+        "cost": 2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 170,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 80,
+        "cost": 5.5
+      },
+      {
+        "key": "tuorlo",
+        "name": "Tuorlo d'uovo",
+        "qg": 60,
+        "cost": 8
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 14.124,
+      "pro100": 6.4479999999999995,
+      "zu100": 28.09,
+      "water100": 41.849999999999994,
+      "slng100": 7.68,
+      "kc100": 0,
+      "la100": 4.16,
+      "st100": 58.150000000000006,
+      "altrisol": 8.256000000000004,
+      "pac": 48.492,
+      "pod": 37.431200000000004,
+      "paca": 115.87096774193549,
+      "lat_h2o": 9.940262843488652,
+      "tv": -24,
+      "ovr": 25,
+      "tipo": "gelato",
+      "pacPunti": 485,
+      "tsCorvitto": -22
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: pasta nocciola 100%, 65% grassi vegetali. PAC negativo -91pt compensato con zucchero invertito. Tuorlo per overrun. Acqua invece di latte perché grassi già coperti dalla pasta.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000006,
+    "nm": "Crema pistacchio 100% (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 350,
+        "cost": 0
+      },
+      {
+        "key": "p_pist100",
+        "name": "Pasta pistacchio 100% (pura)",
+        "qg": 180,
+        "cost": 45
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 130,
+        "cost": 2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 180,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 100,
+        "cost": 5.5
+      },
+      {
+        "key": "tuorlo",
+        "name": "Tuorlo d'uovo",
+        "qg": 52,
+        "cost": 8
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 9.628,
+      "pro100": 8.04,
+      "zu100": 28.904999999999998,
+      "water100": 42.159,
+      "slng100": 9.6,
+      "kc100": 0,
+      "la100": 5.2,
+      "st100": 57.841,
+      "altrisol": 9.708000000000002,
+      "pac": 49.11999999999999,
+      "pod": 38.004,
+      "paca": 116.51130245024785,
+      "lat_h2o": 12.334258402713537,
+      "tv": -24.5,
+      "ovr": 25,
+      "tipo": "gelato",
+      "pacPunti": 491,
+      "tsCorvitto": -22
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: pasta pistacchio 100%, 50% grassi vegetali. PAC negativo -70pt. Meno indurimento rispetto a nocciola. Sostituire acqua con latte fino a 8% grassi totali.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000007,
+    "nm": "Crema alla fragola (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "fragola_f",
+        "name": "Polpa fragola fresca",
+        "qg": 500,
+        "cost": 4
+      },
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 164,
+        "cost": 0.85
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 113,
+        "cost": 0.9
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 97,
+        "cost": 2.8
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 38,
+        "cost": 1.2
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 80,
+        "cost": 5.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 4.273,
+      "pro100": 4.0447999999999995,
+      "zu100": 18.048000000000002,
+      "water100": 65.792,
+      "slng100": 9.641,
+      "kc100": 0,
+      "la100": 5.2807,
+      "st100": 34.208,
+      "altrisol": 2.245999999999995,
+      "pac": 26.781719999999996,
+      "pod": 18.072612000000003,
+      "paca": 40.70665126459143,
+      "lat_h2o": 8.026355787937744,
+      "tv": -13.5,
+      "ovr": 15,
+      "tipo": "gelato",
+      "pacPunti": 268,
+      "tsCorvitto": -11
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: crema alla frutta, grassi ridotti al 4%. 500g fragole/kg. Succo limone come antiossidante e antibaatterico. Frutta aggiunta a freddo (4°C) dopo pastorizzazione.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000008,
+    "nm": "Crema cocktail agrumi (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 391,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 74,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 180,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 63,
+        "cost": 5.5
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 150,
+        "cost": 1.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 62,
+        "cost": 1.5
+      },
+      {
+        "key": "caffe",
+        "name": "Succo arancio + scorza agrumi",
+        "qg": 72,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 4.065100000000001,
+      "pro100": 3.8612999999999995,
+      "zu100": 31.974000000000004,
+      "water100": 52.9295,
+      "slng100": 9.937,
+      "kc100": 0,
+      "la100": 5.4604,
+      "st100": 47.0705,
+      "altrisol": 1.0944000000000003,
+      "pac": 51.95848000000001,
+      "pod": 30.40424400000001,
+      "paca": 98.16544649014257,
+      "lat_h2o": 10.316364220330817,
+      "tv": -26,
+      "ovr": 15,
+      "tipo": "gelato",
+      "pacPunti": 520,
+      "tsCorvitto": -23
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: crema agli agrumi con scorza + succhi. 40% grassi ridotti per non coprire il sapore frutto. Succhi aggiunti a freddo nel mantecatore.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000009,
+    "nm": "Crema alla cannella (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco (+ infuso cannella)",
+        "qg": 366,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 200,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 140,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 58,
+        "cost": 5.5
+      },
+      {
+        "key": "zucc_inv",
+        "name": "Zucchero invertito",
+        "qg": 140,
+        "cost": 2
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 20,
+        "cost": 1.2
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 6,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 930,
+      "fat100": 8.986021505376344,
+      "pro100": 4.145161290322581,
+      "zu100": 27.956989247311824,
+      "water100": 51.89139784946237,
+      "slng100": 10.604301075268818,
+      "kc100": 0,
+      "la100": 5.877419354838709,
+      "st100": 48.10860215053763,
+      "altrisol": 0.5612903225806427,
+      "pac": 53.256,
+      "pod": 37.96984946236559,
+      "paca": 102.62972709753619,
+      "lat_h2o": 11.326384715804306,
+      "tv": -26.5,
+      "ovr": 25,
+      "tipo": "gelato",
+      "pacPunti": 533,
+      "tsCorvitto": -24
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: crema bianca aromatizzata con infuso di cannella. Cannella in bacche in infusione nel latte. 60-80g latte sostituiti con infuso. Scorza limone mescolata con saccarosio.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000010,
+    "nm": "Crema alla menta fresca (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 518,
+        "cost": 0
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 170,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 150,
+        "cost": 0.9
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 90,
+        "cost": 5.5
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 40,
+        "cost": 1.2
+      },
+      {
+        "key": "malt12de",
+        "name": "Maltodestrine 12 DE",
+        "qg": 50,
+        "cost": 2.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 7,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 7,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1032,
+      "fat100": 5.874418604651162,
+      "pro100": 3.5443798449612403,
+      "zu100": 22.72577519379845,
+      "water100": 61.58139534883722,
+      "slng100": 9.195736434108525,
+      "kc100": 0,
+      "la100": 5.045542635658915,
+      "st100": 38.41860465116278,
+      "altrisol": 0.6226744186046425,
+      "pac": 27.181201550387595,
+      "pod": 19.35496124031008,
+      "paca": 44.13865810674722,
+      "lat_h2o": 8.193290533736153,
+      "tv": -13.5,
+      "ovr": 20,
+      "tipo": "gelato",
+      "pacPunti": 272,
+      "tsCorvitto": -11
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: foglie menta fresche tritate con saccarosio, aggiunte a 30°C nel pastorizzatore. 150g foglie fresche/kg conservano colore verde. Succo limone a fine processo.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000011,
+    "nm": "Crema gastronomica al formaggio (TS -11°C)",
+    "tipo": "gelato",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 539,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 118,
+        "cost": 2.8
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 48,
+        "cost": 5.5
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 91,
+        "cost": 1.2
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 40,
+        "cost": 0.9
+      },
+      {
+        "key": "mascarp",
+        "name": "Mascarpone",
+        "qg": 150,
+        "cost": 6
+      },
+      {
+        "key": "sale",
+        "name": "Sale marino",
+        "qg": 6,
+        "cost": 0.8
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 13.1385,
+      "pro100": 5.0457,
+      "zu100": 12.321000000000002,
+      "water100": 61.54550000000001,
+      "slng100": 11.699,
+      "kc100": 0,
+      "la100": 6.141800000000001,
+      "st100": 38.45449999999999,
+      "altrisol": 1.295999999999987,
+      "pac": 29.23052,
+      "pod": 12.248467999999999,
+      "paca": 47.494162855123434,
+      "lat_h2o": 9.979283619436027,
+      "tv": -14.5,
+      "ovr": 25,
+      "tipo": "gelato",
+      "pacPunti": 292,
+      "tsCorvitto": -12
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: base crema bianca con aggiunta sale e ingrediente salato caratterizzante. Usata in ristorazione. PAC invariato. Quantità sale: 6-8g/kg max.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000012,
+    "nm": "Crema al whisky 40° (TS -11°C)",
+    "tipo": "gelato_liquore",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 499,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 178,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 100,
+        "cost": 0.9
+      },
+      {
+        "key": "malt12de",
+        "name": "Glucosio 21DE / Maltodestrine",
+        "qg": 140,
+        "cost": 2.2
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 27,
+        "cost": 5.5
+      },
+      {
+        "key": "caseinato",
+        "name": "Sodio caseinato",
+        "qg": 20,
+        "cost": 14
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 8,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 972,
+      "fat100": 8.279320987654321,
+      "pro100": 5.0963991769547325,
+      "zu100": 24.012345679012345,
+      "water100": 56.85545267489711,
+      "slng100": 10.136831275720164,
+      "kc100": 0,
+      "la100": 4.589300411522634,
+      "st100": 43.14454732510289,
+      "altrisol": 0.7160493827160614,
+      "pac": 16.030781893004114,
+      "pod": 13.152251028806583,
+      "paca": 28.195680693405233,
+      "lat_h2o": 8.071873840780988,
+      "tv": -8,
+      "ovr": 25,
+      "tipo": "gelato_liquore",
+      "pacPunti": 160,
+      "tsCorvitto": null
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: whisky aggiunto a freddo nel mantecatore all'inizio processo. Caseina aumentata per proteine disattivate dall'alcol. Glucosio 21DE per bassa dolcezza e buon PAC. PAC whisky 40°= 27g × (40×9)/100 = 97pt su 27g.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000013,
+    "nm": "Sorbetto limone (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 430,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 300,
+        "cost": 0.9
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 157,
+        "cost": 1.5
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 105,
+        "cost": 1.2
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 2,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 994,
+      "fat100": 0.03762575452716298,
+      "pro100": 0.06519114688128773,
+      "zu100": 40.43561368209256,
+      "water100": 58.593561368209265,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 41.406438631790735,
+      "altrisol": 0.9331991951710137,
+      "pac": 50.8933601609658,
+      "pod": 38.04929577464789,
+      "paca": 86.85828096562618,
+      "lat_h2o": 0,
+      "tv": -25.5,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 509,
+      "tsCorvitto": -23
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto. 70% acqua, 30% secco, PAC 278pt. Succo limone aggiunto a freddo dopo pastorizzazione (4°C). Dolcezza 230/1000g.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000014,
+    "nm": "Sorbetto fragola (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "fragola_f",
+        "name": "Polpa fragola fresca",
+        "qg": 400,
+        "cost": 4
+      },
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 228,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 170,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 170,
+        "cost": 1.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 25,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 4,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 997,
+      "fat100": 0.17753259779338013,
+      "pro100": 0.2948846539618856,
+      "zu100": 35.295887662988974,
+      "water100": 62.81344032096289,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 37.18655967903711,
+      "altrisol": 1.7131394182547552,
+      "pac": 52.17652958876631,
+      "pod": 31.020060180541627,
+      "paca": 83.06586826347306,
+      "lat_h2o": 0,
+      "tv": -26,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 522,
+      "tsCorvitto": -24
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: 400g fragole/kg. Fragole aggiunte a freddo dopo pastorizzazione a 4°C. Succo limone: antiossidante + abbassa pH. 230g dolcezza/kg.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000015,
+    "nm": "Sorbetto lampone (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "p_lampone",
+        "name": "Purea lampone 90°brix",
+        "qg": 400,
+        "cost": 6.5
+      },
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 28,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 170,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 40,
+        "cost": 1.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 360,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 4,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1002,
+      "fat100": 0.2834331337325349,
+      "pro100": 0.5069860279441119,
+      "zu100": 50.79840319361277,
+      "water100": 39.86027944111777,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 60.13972055888223,
+      "altrisol": 9.057884231536924,
+      "pac": 54.75049900199601,
+      "pod": 42.39520958083832,
+      "paca": 137.35603405107662,
+      "lat_h2o": 0,
+      "tv": -27.5,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 548,
+      "tsCorvitto": -25
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: 400g lamponi/kg. Lamponi aggiunti a freddo. Semi eventualmente colati. Alta acidità (pH 3.2): non serve limone in eccesso.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000016,
+    "nm": "Sorbetto mango (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "p_mango",
+        "name": "Purea mango 90°brix",
+        "qg": 500,
+        "cost": 5.5
+      },
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 205,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 180,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 100,
+        "cost": 1.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 10,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 5,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0.117,
+      "pro100": 0.209,
+      "zu100": 66.16499999999999,
+      "water100": 27.335000000000004,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 72.66499999999999,
+      "altrisol": 6.382999999999996,
+      "pac": 76.065,
+      "pod": 54.279999999999994,
+      "paca": 278.2696177062374,
+      "lat_h2o": 0,
+      "tv": -38,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 761,
+      "tsCorvitto": -36
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: mango ha 13% zuccheri naturali — ridurre destrosio proporzionalmente. Polpa 90°brix concentrata. PAC 278pt.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000017,
+    "nm": "Sorbetto al liquore pesca 25° (TS -11°C)",
+    "tipo": "sorbetto_liquore",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 613,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 200,
+        "cost": 0.9
+      },
+      {
+        "key": "malt12de",
+        "name": "Glucosio atomizzato 21 DE",
+        "qg": 122,
+        "cost": 2.2
+      },
+      {
+        "key": "caffe",
+        "name": "Liquore pesca 25° / 30% zucc",
+        "qg": 60,
+        "cost": 15
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 5,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0.020999999999999998,
+      "pro100": 0.016999999999999998,
+      "zu100": 31.645,
+      "water100": 67.815,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 32.185,
+      "altrisol": 0.5190000000000019,
+      "pac": 21.275,
+      "pod": 21.22,
+      "paca": 31.37211531372115,
+      "lat_h2o": 0,
+      "tv": -10.5,
+      "ovr": 15,
+      "tipo": "sorbetto_liquore",
+      "pacPunti": 213,
+      "tsCorvitto": null
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: PAC liquore 25°+30%zucc = (120×25/100)×9 + 36 = 306pt su 120g. Glucosio 21DE per corpo senza dolcezza. Liquore aggiunto a freddo nel mantecatore.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000018,
+    "nm": "Sorbetto tè infuso (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua (infuso tè)",
+        "qg": 662,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 194,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 40,
+        "cost": 1.2
+      },
+      {
+        "key": "malt12de",
+        "name": "Glucosio atomizzato 21 DE",
+        "qg": 50,
+        "cost": 2.2
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 50,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 4,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0.022000000000000002,
+      "pro100": 0.024,
+      "zu100": 28.009999999999994,
+      "water100": 71.38000000000001,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 28.61999999999999,
+      "altrisol": 0.5879999999999974,
+      "pac": 27.72,
+      "pod": 22.85,
+      "paca": 38.83440739702998,
+      "lat_h2o": 0,
+      "tv": -14,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 277,
+      "tsCorvitto": -11
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: infuso di tè sostituisce tutta l'acqua. Glucosio 21DE per corpo senza eccedere dolcezza. 230g dolcezza/kg. Succo limone a freddo.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000019,
+    "nm": "Sorbetto basilico fresco (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 622,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 111,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 158,
+        "cost": 1.2
+      },
+      {
+        "key": "malt12de",
+        "name": "Glucosio atomizzato 21 DE",
+        "qg": 50,
+        "cost": 2.2
+      },
+      {
+        "key": "caffe",
+        "name": "Foglie basilico fresco (50g)",
+        "qg": 5,
+        "cost": 3
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 50,
+        "cost": 1.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 4,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0.0225,
+      "pro100": 0.025,
+      "zu100": 30.45049999999999,
+      "water100": 68.932,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 31.067999999999998,
+      "altrisol": 0.595000000000006,
+      "pac": 41.842499999999994,
+      "pod": 22.81,
+      "paca": 60.70112574711308,
+      "lat_h2o": 0,
+      "tv": -21,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 418,
+      "tsCorvitto": -18
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: foglie basilico tritate con parte del saccarosio, aggiunte a 40°C per conservare il colore verde. Succo limone aggiunto a freddo (4°C).",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000020,
+    "nm": "Sorbetto gastronomico alla carota (TS -11°C)",
+    "tipo": "sorbetto",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 628,
+        "cost": 0
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 230,
+        "cost": 1.2
+      },
+      {
+        "key": "caffe",
+        "name": "Succo di carota (fresca)",
+        "qg": 120,
+        "cost": 1.5
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone",
+        "qg": 15,
+        "cost": 1.5
+      },
+      {
+        "key": "sale",
+        "name": "Sale marino",
+        "qg": 3,
+        "cost": 0.8
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 4,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0.027,
+      "pro100": 0.033999999999999996,
+      "zu100": 21.07,
+      "water100": 78.01500000000001,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 21.984999999999985,
+      "altrisol": 0.8879999999999839,
+      "pac": 45.04,
+      "pod": 16.145,
+      "paca": 57.73248734217778,
+      "lat_h2o": 0,
+      "tv": -22.5,
+      "ovr": 15,
+      "tipo": "sorbetto",
+      "pacPunti": 450,
+      "tsCorvitto": -20
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Corvitto: sorbetto salato senza grassi né LMP. Alta percentuale di acqua (dalla verdura). Sale 3g/kg. Succo carota aggiunto a freddo dopo pastorizzazione.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000021,
+    "nm": "Granita siciliana al limone",
+    "tipo": "granita",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua",
+        "qg": 600,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 240,
+        "cost": 0.9
+      },
+      {
+        "key": "p_limone",
+        "name": "Succo di limone fresco",
+        "qg": 150,
+        "cost": 1.5
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 8,
+        "cost": 1.2
+      }
+    ],
+    "r": {
+      "tot": 998,
+      "fat100": 0.03006012024048096,
+      "pro100": 0.06012024048096192,
+      "zu100": 25.37875751503006,
+      "water100": 73.86973947895792,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 26.130260521042075,
+      "altrisol": 0.721442885771534,
+      "pac": 26.172344689378757,
+      "pod": 25.06012024048096,
+      "paca": 35.43040069450096,
+      "lat_h2o": 0,
+      "tv": -13,
+      "ovr": 15,
+      "tipo": "granita",
+      "pacPunti": 262,
+      "tsCorvitto": -11
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Granita autentica siciliana: cristalli grossolani, non cremosa, no neutro o pochissimo. Zucchero 24-28%, temperatura servizio -4/-6°C, non mantecata ma \"grattata\". PAC molto più basso del sorbetto.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000022,
+    "nm": "Granita siciliana al caffè",
+    "tipo": "granita",
+    "ings": [
+      {
+        "key": "acqua",
+        "name": "Acqua + caffè espresso",
+        "qg": 680,
+        "cost": 0
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 250,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 70,
+        "cost": 1.2
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 0,
+      "pro100": 0,
+      "zu100": 31.369999999999997,
+      "water100": 68.63,
+      "slng100": 0,
+      "kc100": 0,
+      "la100": 0,
+      "st100": 31.370000000000005,
+      "altrisol": 7.105427357601002e-15,
+      "pac": 38.3,
+      "pod": 29.9,
+      "paca": 55.8064986157657,
+      "lat_h2o": 0,
+      "tv": -19,
+      "ovr": 15,
+      "tipo": "granita",
+      "pacPunti": 383,
+      "tsCorvitto": -17
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Classica granita al caffè siciliana. Panna montata a parte come accompagnamento (non in miscela). Caffè espresso forte.",
+    "isCorvitto": false
+  },
+  {
+    "id": 1700000000023,
+    "nm": "Soft serve / Gelato espresso (mix)",
+    "tipo": "soft",
+    "ings": [
+      {
+        "key": "latte_i",
+        "name": "Latte intero fresco",
+        "qg": 730,
+        "cost": 0.85
+      },
+      {
+        "key": "panna35",
+        "name": "Panna fresca 35%",
+        "qg": 90,
+        "cost": 2.8
+      },
+      {
+        "key": "saccarosio",
+        "name": "Saccarosio",
+        "qg": 80,
+        "cost": 0.9
+      },
+      {
+        "key": "destrosio",
+        "name": "Destrosio monoidrato",
+        "qg": 50,
+        "cost": 1.2
+      },
+      {
+        "key": "lsp",
+        "name": "Latte scremato polvere (LMP)",
+        "qg": 30,
+        "cost": 5.5
+      },
+      {
+        "key": "neutro5",
+        "name": "Neutro 5g/L (composto)",
+        "qg": 20,
+        "cost": 8
+      }
+    ],
+    "r": {
+      "tot": 1000,
+      "fat100": 5.794999999999999,
+      "pro100": 3.871,
+      "zu100": 12.65,
+      "water100": 69.91499999999999,
+      "slng100": 9.9,
+      "kc100": 0,
+      "la100": 5.489,
+      "st100": 30.085000000000008,
+      "altrisol": 1.740000000000009,
+      "pac": 22.7324,
+      "pod": 13.205839999999998,
+      "paca": 32.514338840020024,
+      "lat_h2o": 7.850961882285633,
+      "tv": -11.5,
+      "ovr": 20,
+      "tipo": "soft",
+      "pacPunti": 227,
+      "tsCorvitto": null
+    },
+    "al": [],
+    "dt": "Corvitto - Il Gelato senza Segreti",
+    "note": "Mix per soft serve: solidi 32-36%, overrun 40-60%, TS -6/-7°C. Grassi leggermente ridotti rispetto al gelato tradizionale. Importante: meno solidi = più leggerezza e facilità di estrusione.",
+    "isCorvitto": false
+  }
+]
