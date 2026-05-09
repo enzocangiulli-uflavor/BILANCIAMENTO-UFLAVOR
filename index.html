@@ -2954,9 +2954,9 @@ function getBilData(){
   const pro100   = slng100 * 0.26;
   const altrisol = Math.max(0, st100 - fat100 - slng100 - zu100);
 
-  // PAC relativo (% saccarosio equiv su miscela) — per compatibilità
-  const pac = C.totPac / 100;       // punti/100 → percentuale rel
-  const pod = C.totPod / 100;
+  // PAC relativo (% saccarosio equiv su miscela) — C.totPac è in punti Corvitto (scala ×10)
+  const pac = C.totPac / 10;       // punti Corvitto → PAC relativo %
+  const pod = C.totPod / 10;
   const paca = water100 > 0 ? pac/water100*100 : 0;
 
   // Kcal stimate: grassi=9, carb=4, pro=4
@@ -2968,7 +2968,7 @@ function getBilData(){
   // Lattosio su acqua
   const lat_h2o = water100>0 ? (la100/water100)*100 : 0;
 
-  // Temp servizio
+  // Temp servizio — C.totPac già in scala Corvitto
   const pacPunti  = Math.round(C.totPac);
   const tsCorvitto = pacPunti>=241 ? -(10+Math.floor((pacPunti-241)/20)) : null;
   const tv = tsCorvitto;
